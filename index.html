@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>p18n — Payment Orchestration</title>
+  <meta name="description" content="p18n is the numeronym for payment orchestration — 18 letters between p and n. By Orchestra Solutions.">
+  <meta name="keywords" content="p18n, payment orchestration, numeronym, Orchestra Solutions, payment API, PSP integration">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="p18n — Payment Orchestration">
+  <meta property="og:description" content="18 letters. 1 API. Payment orchestration for people who value their keyboard.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://p18n.com">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="p18n — Payment Orchestration">
+  <meta name="twitter:description" content="18 letters. 1 API. Payment orchestration for people who value their keyboard.">
+  
+  <link rel="canonical" href="https://p18n.com">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;800&display=swap" rel="stylesheet">
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background: #050508;
+      color: #fafafa;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    body::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(ellipse at 30% 20%, rgba(99, 102, 241, 0.15) 0%, transparent 50%),
+                  radial-gradient(ellipse at 70% 80%, rgba(236, 72, 153, 0.12) 0%, transparent 50%),
+                  radial-gradient(ellipse at 50% 50%, rgba(34, 211, 238, 0.08) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    
+    .container {
+      max-width: 600px;
+      position: relative;
+      z-index: 1;
+    }
+    
+    .logo {
+      font-family: 'Rubik', sans-serif;
+      font-size: clamp(4rem, 15vw, 8rem);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: 1.5rem;
+      background: linear-gradient(135deg, #fff 0%, #c084fc 50%, #22d3ee 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    .phonetic {
+      font-size: 1.1rem;
+      color: #a1a1aa;
+      margin-bottom: 2rem;
+      font-style: italic;
+    }
+    
+    .definition {
+      font-size: 1.4rem;
+      line-height: 1.6;
+      margin-bottom: 3rem;
+      color: #d4d4d8;
+    }
+    
+    .definition strong {
+      color: #fff;
+    }
+    
+    .cta {
+      display: inline-block;
+      background: linear-gradient(135deg, #a855f7 0%, #6366f1 50%, #22d3ee 100%);
+      color: #fff;
+      padding: 1rem 2.5rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 4px 20px rgba(139, 92, 246, 0.3);
+    }
+    
+    .cta:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(139, 92, 246, 0.4);
+    }
+    
+    .tagline {
+      margin-top: 1.5rem;
+      font-size: 0.95rem;
+      color: #a1a1aa;
+    }
+    
+    .hashtag {
+      font-family: 'Rubik', sans-serif;
+      font-weight: 500;
+      margin-top: 2.5rem;
+      font-size: 0.9rem;
+      letter-spacing: 0.05em;
+      background: linear-gradient(135deg, #a855f7 0%, #22d3ee 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    footer {
+      position: fixed;
+      bottom: 2rem;
+      font-size: 0.85rem;
+      color: #71717a;
+      z-index: 1;
+    }
+    
+    footer a {
+      color: #a1a1aa;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    
+    footer a:hover {
+      color: #d4d4d8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="logo">p18n</h1>
+    <p class="phonetic">/peɪmənt ɔːkɪˈstreɪʃən/</p>
+    <p class="definition">
+      <strong>Payment orchestration</strong> — 18 letters you don't have to type anymore.
+    </p>
+    <a href="https://orchestrasolutions.com" class="cta">See how it works →</a>
+    <p class="tagline">One integration. Multiple payment providers.</p>
+    <p class="hashtag">#p18n</p>
+  </div>
+  <footer>
+    <a href="https://orchestrasolutions.com">Orchestra Solutions</a>
+  </footer>
+</body>
+</html>
