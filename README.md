@@ -1,10 +1,10 @@
 # p18n
 
-> **p18n** (payment orchestration) — Orchestra Solutions developer hub
+> **p18n** (payment orchestration, pronounced /peɪmənt ɔːkɪˈstreɪʃən/) — Orchestra Solutions developer hub
 
 ## What is p18n?
 
-p18n is a numeronym for "payment orchestration" (like i18n, k8s, a11y). This repo is the home for Orchestra's developer community and examples.
+p18n is a numeronym for "payment orchestration". This repo is the home for Orchestra's developer community and examples.
 
 ## Documentation
 
